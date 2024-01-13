@@ -177,13 +177,7 @@
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
      <p>There are no Position Maximums </p>
-    
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
-
-    <p>4 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
-    
-        <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
-        
+       
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>   
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
