@@ -2,23 +2,13 @@
     import { tabs } from '$lib/utils/tabs';
     import NavSmall from './NavSmall.svelte';
     import NavLarge from './NavLarge.svelte';
-    import { page } from '$app/stores';    
-    import IconButton from '@smui/icon-button';
-    import { Icon } from '@smui/common';
+    import { page } from '$app/stores';
     import { onMount } from 'svelte';
 
-    // Initialize lightTheme based on the user's preference or system setting
-    let lightTheme =
-        typeof window === 'undefined' ||
-        window.matchMedia('(prefers-color-scheme: light)').matches;
+    // Always set dark mode as the default
+    const darkTheme = true;
 
     $: active = tabs.find(tab => tab.dest == $page.url.pathname || (tab.nest && tab.children.find(subTab => subTab.dest == $page.url.pathname)));
-
-    // toggle dark mode
-    function switchTheme() {
-        lightTheme = !lightTheme;
-        applyTheme();
-    }
 
     // Apply theme function
     function applyTheme() {
@@ -28,7 +18,7 @@
             themeLink.rel = 'stylesheet';
             themeLink.id = 'theme';
         }
-        themeLink.href = `/smui${lightTheme ? '' : '-dark'}.css`;
+        themeLink.href = `/smui${darkTheme ? '-dark' : ''}.css`;
         document.head
             .querySelector('link[href="/smui-dark.css"]')
             .insertAdjacentElement('afterend', themeLink);
