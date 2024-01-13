@@ -7,12 +7,10 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Welcome to the epic realm of fantasy football where the gridiron is our battlefield, and only the strategic minds prevail. Behold, the "Play For Keeps Dynasty League" – a crucible of competition, a forge of friendships, and the ultimate proving ground for fantasy football mastery!</p>
-  <p><b>🏈 Unleash the Dynasty:</b> Embark on a journey where your decisions echo through seasons, shaping the destiny of your roster. The thrill of drafting transcends mere seasons; it's a legacy-building experience where every trade, every waiver wire pickup, is a stroke on the canvas of your football dynasty.</p>
-  <p><b>⚔️ Battle of Titans:</b> This is not just a league; it's a battleground where managers clash in a perpetual struggle for supremacy. Each victory is a conquest, each defeat a call to arms. In the "Play For Keeps Dynasty League," the competition is fierce, the stakes are high, and only the mightiest managers ascend to fantasy glory.</p>
-  <p><b>🔥 Addiction Redefined:</b> Brace yourself for the addictive rush of strategic gameplay, where every matchup is a tactical puzzle waiting to be solved. The thrill of the waiver wire, the exhilaration of a trade well-executed – addiction takes a new form in the relentless pursuit of fantasy dominance.</p>
-  <p><b>🏆 Chase Greatness, Play for Keeps:</b> In our realm, greatness is not a fleeting moment but a perpetual pursuit. Rise through the ranks, outsmart your rivals, and etch your name in the annals of fantasy football history. The "Play For Keeps Dynasty League" is not just a league; it's a legacy in the making.</p>
-  <p>🌟 As the illustrious coaching careers of Nick Saban and Bill Belichick come to a close, the "Play For Keeps Dynasty League" eagerly anticipates the emergence of a new luminary. With these iconic figures stepping aside, a fresh era beckons – where a visionary manager will rise to craft the next monumental dynasty. The echoes of past greatness linger, yet the future promises a captivating narrative as a new architect takes center stage. Join us in this thrilling chapter, where a new legend is poised to shape the destiny of fantasy football, and the pursuit of the next extraordinary dynasty unfolds! 🏈🔥</p>
+<p>🏈Behold the sacred arena of "Play For Keeps Dynasty League"! Warriors of strategy, you stand not as mere managers but as champions in an eternal struggle for supremacy!</p>
+<p>🏆Roar with might! Each victory, a conquest; each defeat, a rallying call to arms! In the "Play For Keeps Dynasty League," only the mightiest ascend to fantasy glory!</p>
+<p>😤Feel the addictive rush as you navigate strategic gameplay. Every matchup, a tactical puzzle; the waiver wire, a thrilling pursuit! Rise, champions! In this realm, greatness is not fleeting but an eternal pursuit!</p>
+<p>🔥The "Play For Keeps Dynasty League" – not just a league but an unfolding legacy! As Saban and Belichick step aside, a new luminary emerges! Join this thrilling chapter, where a new legend shapes the destiny of fantasy football, and the pursuit of the next extraordinary dynasty ignites!</p>
 `;
 
 /*   STEP 3   */
