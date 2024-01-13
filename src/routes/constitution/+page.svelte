@@ -179,19 +179,11 @@
     
     <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
 
-    <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    <p>4 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
-    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
-
-    <p>There are no trade deadlines</p>
-
-    <p>There will be no voting on trades. The Commissioner and Co-Commisioner will manually approve trade. If there's a trade the commissioners deems overly egregious. Commissioners will put the trade to a vote minus the two owners involved in the trade. If all 8 remaining owners vote to veto the trade then it will be vetoed. In that case the two teams have a week to renegotiate the trade. No other owner is allowed to trade for the players involved in the trade. Not until the week has expired. Other owners can't have a hand shake deal under the table for when the week has expired. Failure to follow this rule will result in a permanent ban. Given these rules I don't foresee vetoing any trades. If it's in consideration of being vetoed we will contact both owners  for details and we will have a discussion.</p>
-
-    <p> Can't trade for a player/picks for cash on the side </p>
-
-    <p>Trades can be conditional as long as you announce it to the league.</p>
+    <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>   
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
@@ -206,26 +198,29 @@
     
     <h4 bind:this={oneTwoThree}>1.2.3 Trade Deadline</h4>
     <div class="subBlock">
-        <p>The trade deadline will be set for the Saturday of the week 11 games of the NFL season.</p>
+        <p>There are no trade deadlines</p>
     </div>
     
     <h4 bind:this={oneTwoFour}>1.2.4 Trade Restrictions</h4>
     <div class="subBlock">
-        <p>You will not be able to trade draft picks that are more than 3 drafts away. For example, during the 2021 season you cannot trade any picks in or after the 2025 draft. You may only trade FAAB $ from the current season.</p>
+        <p>Can't trade for a player/picks for cash on the side </p>
+
+    <p>Trades can be conditional as long as you announce it to the league.</p>
+
     </div>
     
     <h4 bind:this={oneTwoFive}>1.2.5 Veto/Trade Process</h4>
     <div class="subBlock">
-        <p>A total of 7 veto votes are required to veto a trade. Vetoes are only appropriate in instances of collusion or an egregious mismatch of value (i.e. CMC for a backup kicker). Not liking a trade does not warrant a veto.</p>
+        <p>There will be no voting on trades. The Commissioner and Co-Commisioner will manually approve trade. If there's a trade the commissioners deems overly egregious. Commissioners will put the trade to a vote minus the two owners involved in the trade. If all 8 remaining owners vote to veto the trade then it will be vetoed. In that case the two teams have a week to renegotiate the trade. No other owner is allowed to trade for the players involved in the trade. Not until the week has expired. Other owners can't have a hand shake deal under the table for when the week has expired. Failure to follow this rule will result in a permanent ban. Given these rules I don't foresee vetoing any trades. If it's in consideration of being vetoed we will contact both owners  for details and we will have a discussion.</p>
     </div>
     
     
     
     <h3 bind:this={oneThree}>1.3 Waiver Wire</h3>
     
-    <p>FAAB Waiver wire system. Each team will begin the season with $100. $0 bids are allowed. Bids will process Thursdays and Sundays at 9AM EST.</p>
-
-    <p>FAAB budgets will reset each season in January.</p>
+    <p>Free agents can be added through our daily waiver system where you would use your FAAB to bid on players. Each team will begin the season with $100. $0 bids are allowed. </p>
+    <p>However, there is one day where you can add or drop at will. That is Sunday morning.</p>
+    <p>FAAB budgets will reset each at end of the Season</p>
     
     
     <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
