@@ -183,37 +183,23 @@
     
         <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
         
-        <div class="subBlock">
-            <table class="positionMaximums">
-                <tr><td>QB</td><td class="right">3 active, 5 total</td></tr>
-                <tr><td>RB</td><td class="right">20</td></tr>
-                <tr><td>WR</td><td class="right">20</td></tr>
-                <tr><td>TE</td><td class="right">10</td></tr>
-                <tr><td>D/ST</td><td class="right">3</td></tr>
-                <tr><td>K</td><td class="right">3</td></tr>
-            </table>
-        </div>
-
-
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
-    
-    <p>Trading of players and draft picks (up to 3 drafts away) are allowed. Trades will process immediately and will be reversed if vetoed or under investigation for collusion. Tradable assets include players, draft picks, and FAAB $.</p>
+
+    <p>There are no trade deadlines</>
+
+    <p>There will be no voting on trades. The Commissioner and Co-Commisioner will manually approve trade. If there's a trade the commissioners deems overly egregious. Commissioners will put the trade to a vote minus the two owners involved in the trade. 
+If all 8 remaining owners vote to veto the trade then it will be vetoed. In that case the two teams have a week to renegotiate the trade. No other owner is allowed to trade for the players involved in the trade. Not until the week has expired. Other owners 
+can't have a hand shake deal under the table for when the week has expired. Failure to follow this rule will result in a permanent ban. Given these rules I don't foresee vetoing any trades. If it's in consideration of being vetoed we will contact both owners 
+for details and we will have a discussion.</p>
+
+    <p> Can't trade for a player/picks for cash on the side </p>
+
+    <p>Trades can be conditional as long as you announce it to the league.</p>
     
     <h4 bind:this={oneTwoOne}>1.2.1 Trade Collusion</h4>
     <div class="subBlock">
-        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment. The punishments will go as followed:</p>
-        
-        <ul>
-            <li>First Offense – Immediate reduction of FAAB budget by 80%</li>
-            <li>Second Offense – Immediate freeze on all transaction types for the next 18 weeks of regular season and playoff fantasy football games, including trades and waiver wire bids</li>
-            <li>Third Offense – A league meeting of all members not involved in any of the improper trades/activity in question will take place to discuss next steps.</li>
-        </ul>
+        <p>If any owners are suspected of accepting bribes/offering bribes to enhance their/another owners team via trade, trading any assets other than fantasy players, draft picks, FAAB $, or otherwise found guilty of engaging in any form of collusion*, all parties involved in the trade will be susceptible to punishment including up to result in a permanent ban:</p>
 
-        <p>All trades that are found guilty of collusion, will be reversed/denied. If the trade had affected the outcome of previous games, the results of those games will be revised.  </p>
-
-        <p>*Collusion includes the organizing of veto votes against an acceptable trade.</p>
-
-        <p>The commissioner will err on the side of letting owners manage their teams the way they see fit. Any collusion will need to be clear. The commissioner reserves the right to step in and at the very least assess the thinking of any team involved in a heavily lop-sided trade. </p>
     </div>
 
     <h4 bind:this={oneTwoTwo}>1.2.2 Lending Players Prohibition</h4>
