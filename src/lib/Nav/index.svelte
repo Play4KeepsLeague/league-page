@@ -87,7 +87,7 @@
 	<div class="container">
 		<IconButton
 			toggle
-			pressed={lightTheme}
+			pressed={darkTheme}
 			on:MDCIconButtonToggle:change={switchTheme}
 			class="lightDark"
 		>
