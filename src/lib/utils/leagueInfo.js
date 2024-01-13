@@ -1,18 +1,18 @@
 /*   STEP 1   */
-export const leagueID = "your_league_id"; // your league ID
-export const leagueName = "your_league_name"; // your league name
+export const leagueID = "1048266419793661952"; // your league ID
+export const leagueName = "Play For Keeps Dynasty League"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Welcome to the epic realm of fantasy football where the gridiron is our battlefield, and only the strategic minds prevail. Behold, the "Play For Keeps Dynasty League" – a crucible of competition, a forge of friendships, and the ultimate proving ground for fantasy football mastery!</p>
+  <p><b>🏈 Unleash the Dynasty:</b> Embark on a journey where your decisions echo through seasons, shaping the destiny of your roster. The thrill of drafting transcends mere seasons; it's a legacy-building experience where every trade, every waiver wire pickup, is a stroke on the canvas of your football dynasty.</p>
+  <p><b>⚔️ Battle of Titans:</b> This is not just a league; it's a battleground where managers clash in a perpetual struggle for supremacy. Each victory is a conquest, each defeat a call to arms. In the "Play For Keeps Dynasty League," the competition is fierce, the stakes are high, and only the mightiest managers ascend to fantasy glory.</p>
+  <p><b>🔥 Addiction Redefined:</b> Brace yourself for the addictive rush of strategic gameplay, where every matchup is a tactical puzzle waiting to be solved. The thrill of the waiver wire, the exhilaration of a trade well-executed – addiction takes a new form in the relentless pursuit of fantasy dominance.</p>
+  <p><b>🏆 Chase Greatness, Play for Keeps:</b> In our realm, greatness is not a fleeting moment but a perpetual pursuit. Rise through the ranks, outsmart your rivals, and etch your name in the annals of fantasy football history. The "Play For Keeps Dynasty League" is not just a league; it's a legacy in the making.</p>
+  <p>🌟 As the illustrious coaching careers of Nick Saban and Bill Belichick come to a close, the "Play For Keeps Dynasty League" eagerly anticipates the emergence of a new luminary. With these iconic figures stepping aside, a fresh era beckons – where a visionary manager will rise to craft the next monumental dynasty. The echoes of past greatness linger, yet the future promises a captivating narrative as a new architect takes center stage. Join us in this thrilling chapter, where a new legend is poised to shape the destiny of fantasy football, and the pursuit of the next extraordinary dynasty unfolds! 🏈🔥</p>
 `;
 
 /*   STEP 3   */
