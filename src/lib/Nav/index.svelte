@@ -6,12 +6,14 @@
     import IconButton from '@smui/icon-button';
     import { Icon } from '@smui/common';
 
-    // Initialize lightTheme as false to make dark theme default
-    let lightTheme = false;
-
     $: active = tabs.find(tab => tab.dest == $page.url.pathname || (tab.nest && tab.children.find(subTab => subTab.dest == $page.url.pathname)));
 
     // toggle dark mode
+	
+     let lightTheme =
+	typeof window === "undefined" ||
+	window.matchMedia("(prefers-color-scheme: light)").matches;
+
     function switchTheme() {
         lightTheme = !lightTheme;
         let themeLink = document.head.querySelector("#theme");
