@@ -185,7 +185,7 @@
         
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Trading</h3>
 
-    <p>There are no trade deadlines</>
+    <p>There are no trade deadlines</p>
 
     <p>There will be no voting on trades. The Commissioner and Co-Commisioner will manually approve trade. If there's a trade the commissioners deems overly egregious. Commissioners will put the trade to a vote minus the two owners involved in the trade. If all 8 remaining owners vote to veto the trade then it will be vetoed. In that case the two teams have a week to renegotiate the trade. No other owner is allowed to trade for the players involved in the trade. Not until the week has expired. Other owners can't have a hand shake deal under the table for when the week has expired. Failure to follow this rule will result in a permanent ban. Given these rules I don't foresee vetoing any trades. If it's in consideration of being vetoed we will contact both owners  for details and we will have a discussion.</p>
 
