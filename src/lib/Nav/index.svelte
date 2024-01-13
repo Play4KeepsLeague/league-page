@@ -2,32 +2,29 @@
     import { tabs } from '$lib/utils/tabs';
     import NavSmall from './NavSmall.svelte';
     import NavLarge from './NavLarge.svelte';
-    import { page } from '$app/stores';
-    import { onMount } from 'svelte';
+    import { page } from '$app/stores';    
+    import IconButton from '@smui/icon-button';
+    import { Icon } from '@smui/common';
 
-    // Always set dark mode as the default
-    const darkTheme = true;
+    // Initialize lightTheme as false to make dark theme default
+    let lightTheme = false;
 
     $: active = tabs.find(tab => tab.dest == $page.url.pathname || (tab.nest && tab.children.find(subTab => subTab.dest == $page.url.pathname)));
 
-    // Apply theme function
-    function applyTheme() {
-        let themeLink = document.head.querySelector('#theme');
+    // toggle dark mode
+    function switchTheme() {
+        lightTheme = !lightTheme;
+        let themeLink = document.head.querySelector("#theme");
         if (!themeLink) {
-            themeLink = document.createElement('link');
-            themeLink.rel = 'stylesheet';
-            themeLink.id = 'theme';
+            themeLink = document.createElement("link");
+            themeLink.rel = "stylesheet";
+            themeLink.id = "theme";
         }
-        themeLink.href = `/smui${darkTheme ? '-dark' : ''}.css`;
+        themeLink.href = `/smui${lightTheme ? "" : "-dark"}.css`;
         document.head
             .querySelector('link[href="/smui-dark.css"]')
-            .insertAdjacentElement('afterend', themeLink);
+            .insertAdjacentElement("afterend", themeLink);
     }
-
-    // Apply initial theme on component mount
-    onMount(() => {
-        applyTheme();
-    });
 </script>
 
 <svelte:head>
