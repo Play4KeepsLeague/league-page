@@ -1,30 +1,30 @@
 <script>
-	import { tabs } from '$lib/utils/tabs';
-	import NavSmall from './NavSmall.svelte';
-	import NavLarge from './NavLarge.svelte';
-    	import { page } from '$app/stores';	
-	import IconButton from '@smui/icon-button';
-	import { Icon } from '@smui/common';
-    	
-	// Initialize lightTheme as false to make dark theme default
-    	let lightTheme = false;
+    import { tabs } from '$lib/utils/tabs';
+    import NavSmall from './NavSmall.svelte';
+    import NavLarge from './NavLarge.svelte';
+    import { page } from '$app/stores';    
+    import IconButton from '@smui/icon-button';
+    import { Icon } from '@smui/common';
 
-	$: active = tabs.find(tab => tab.dest == $page.url.pathname || (tab.nest && tab.children.find(subTab => subTab.dest == $page.url.pathname)));
+    // Initialize lightTheme as false to make dark theme default
+    let lightTheme = false;
 
-	// toggle dark mode
-	function switchTheme() {
-		lightTheme = !lightTheme;
-		let themeLink = document.head.querySelector("#theme");
-		if (!themeLink) {
-			themeLink = document.createElement("link");
-			themeLink.rel = "stylesheet";
-			themeLink.id = "theme";
-		}
-		themeLink.href = `/smui${lightTheme ? "" : "-dark"}.css`;
-		document.head
-		.querySelector('link[href="/smui-dark.css"]')
-		.insertAdjacentElement("afterend", themeLink);
-	}
+    $: active = tabs.find(tab => tab.dest == $page.url.pathname || (tab.nest && tab.children.find(subTab => subTab.dest == $page.url.pathname)));
+
+    // toggle dark mode
+    function switchTheme() {
+        lightTheme = !lightTheme;
+        let themeLink = document.head.querySelector("#theme");
+        if (!themeLink) {
+            themeLink = document.createElement("link");
+            themeLink.rel = "stylesheet";
+            themeLink.id = "theme";
+        }
+        themeLink.href = `/smui${lightTheme ? "" : "-dark"}.css`;
+        document.head
+            .querySelector('link[href="/smui-dark.css"]')
+            .insertAdjacentElement("afterend", themeLink);
+    }
 </script>
 
 <svelte:head>
