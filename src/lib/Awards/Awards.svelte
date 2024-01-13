@@ -368,7 +368,7 @@
 	{#if toilet}
 		<div class="toiletParent">
 			
-			<img src="/toilet-banner.png" class="toilet-banner" alt="The Toilet Bowl" />
+			<img src="/dumpster.gif" class="toilet-banner" alt="The Toilet Bowl" />
 
 			<div class="toiletBowl">
 				<img src="{getAvatarFromTeamManagers(leagueTeamManagers, toilet, year)}" class="toiletWinner clickable" on:click={() => gotoManager({year, leagueTeamManagers, rosterID: toilet})} alt="toilet bowl winner" />
