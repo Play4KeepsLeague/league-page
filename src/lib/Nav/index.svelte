@@ -2,12 +2,12 @@
 	import { tabs } from '$lib/utils/tabs';
 	import NavSmall from './NavSmall.svelte';
 	import NavLarge from './NavLarge.svelte';
-    import { page } from '$app/stores';	
+    	import { page } from '$app/stores';	
 	import IconButton from '@smui/icon-button';
 	import { Icon } from '@smui/common';
     	
 	// Initialize lightTheme as false to make dark theme default
-    	let lightTheme = false;
+    	export let lightTheme = false;
 
 	$: active = tabs.find(tab => tab.dest == $page.url.pathname || (tab.nest && tab.children.find(subTab => subTab.dest == $page.url.pathname)));
 
