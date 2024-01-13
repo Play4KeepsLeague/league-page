@@ -6,10 +6,24 @@
     import IconButton from '@smui/icon-button';
     import { Icon } from '@smui/common';
 
-    // Initialize lightTheme as false to make dark theme default
-    let lightTheme = false;
+    // Initialize lightTheme based on the user's preference or system setting
+    let lightTheme =
+        typeof window === "undefined" ||
+        window.matchMedia("(prefers-color-scheme: light)").matches;
 
     $: active = tabs.find(tab => tab.dest == $page.url.pathname || (tab.nest && tab.children.find(subTab => subTab.dest == $page.url.pathname)));
+
+    // Apply initial theme on page load
+    function applyInitialTheme() {
+        let themeLink = document.head.querySelector("#theme");
+        if (!themeLink) {
+            themeLink = document.createElement("link");
+            themeLink.rel = "stylesheet";
+            themeLink.id = "theme";
+        }
+        themeLink.href = `/smui${lightTheme ? "" : "-dark"}.css`;
+        document.head.appendChild(themeLink);
+    }
 
     // toggle dark mode
     function switchTheme() {
@@ -25,6 +39,12 @@
             .querySelector('link[href="/smui-dark.css"]')
             .insertAdjacentElement("afterend", themeLink);
     }
+
+    // Apply initial theme on component mount
+    import { onMount } from "svelte";
+    onMount(() => {
+        applyInitialTheme();
+    });
 </script>
 
 <svelte:head>
