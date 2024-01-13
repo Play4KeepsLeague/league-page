@@ -149,21 +149,35 @@
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
     
-    <p>28 Total Players</p>
+    <p>33 Total Players</p>
     
     <p class="underscore">Starters</p>
     <ul>
+        <li>QB</li>
         <li>QB</li>
         <li>RB</li>
         <li>RB</li>
         <li>WR</li>
         <li>WR</li>
+        <li>WR</li>
         <li>TE</li>
         <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
-        <li>D/ST</li>
+        <li>FLEX (RB/WR/TE)</li>
+        <li>FLEX (RB/WR/TE)</li>
+        <li>FLEX (RB/WR/TE)</li>
         <li>K</li>
+        <li>D/ST</li>
     </ul>
+    
+    <p>15 Bench spots</p>
+
+    <p>4 Taxi Squad Slots (Players with more than 2 years of experience in the NFL must be activated from the Taxi Squad.)</p>
+
+    <p>4 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
+    
+        <h4 bind:this={oneOneOne}>1.1.1 Position Maximums</h4>
+        
+     <p>There are no Position Maximums </p>
     
     <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
 
